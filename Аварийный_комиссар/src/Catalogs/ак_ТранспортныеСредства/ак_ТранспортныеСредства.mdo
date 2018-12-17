@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80d045c3-69c3-42ef-ae48-0e4091c7d304">
+  <producedTypes>
+    <objectType typeId="91ff50e2-d1fa-4c00-a932-0c6686918e6a" valueTypeId="626720ff-329a-4799-9d97-bc99c1d16876"/>
+    <refType typeId="f5bd498e-e398-4459-bf30-3d74d5a6e265" valueTypeId="1f35521d-6590-4af4-a55d-62e92953a773"/>
+    <selectionType typeId="36dfaadb-bde8-4f8f-8710-4eecc1e842f2" valueTypeId="e0d7bdae-3252-4c5f-a67d-df22ee86fa43"/>
+    <listType typeId="6d9b5606-2627-4aee-a4e7-929eb591c8fd" valueTypeId="c111328d-902a-48f8-82dd-77dbd8740876"/>
+    <managerType typeId="e891c3d3-38fa-41b9-a3a0-466aae258fde" valueTypeId="01221f5b-9a54-49cd-867b-fd6b2feb315e"/>
+  </producedTypes>
+  <name>ак_ТранспортныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспортные средства</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ак_ТранспортныеСредства.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ак_ТранспортныеСредства.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ак_ТранспортныеСредства.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ак_ТранспортныеСредства.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="39e2492a-51c3-4daf-aee3-1e8e1188685a">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="290399e4-ee43-42fc-87d6-e2b5b6a24516">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="90f6a327-eb8c-479b-8ffd-3a9b197edc13">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c0334349-6ecf-4113-9a85-e8587157f003">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

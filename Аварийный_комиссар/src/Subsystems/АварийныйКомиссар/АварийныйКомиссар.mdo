@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc5aa8c1-7eb2-4a50-8556-e2e9049006ac">
+  <name>АварийныйКомиссар</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аварийный комиссар</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ак_ТранспортныеСредства</content>
+</mdclass:Subsystem>
